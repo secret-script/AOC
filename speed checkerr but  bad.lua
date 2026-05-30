@@ -10,7 +10,7 @@ label.Position = UDim2.new(0,10,0,100)
 label.Parent = gui
 label.TextSize = 14
 
-while task.wait(5) do
+while task.wait(0.2) do
 	local txt = ""
 
 	for _,plr in ipairs(Players:GetPlayers()) do
